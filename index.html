@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <!---------- Start Navbar ------>
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container">
+              <a class="navbar-brand" href="#"><i class="fa-solid fa-helmet-un"></i>POSTON</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                MENU<i class="navbar-toggler-icon fa-solid fa-bars fa-sm"></i>
+              </button>
+              <div class="collapse navbar-collapse  justify-content-end" id="navbarText">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Games</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ticket" href="#">Buy Ticket</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!---------- End Navbar ------>
+
+
+          <!---------- Start Interface ------>
+
+
+          <section class="head">
+            <div class="overlay"></div>
+            <div class="container">
+              <div class="row">
+              <div class="header-content col-lg-6 col-md-12">
+                <h1 class="mb-4">FIELDRUN <br> BASEBALL CLUB</h1>
+                <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="d-flex gap-2">
+                  <a class="btn btn-blue">Watch Match</a>
+                  <a class="btn btn-green">Get Ticket</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+    
+    <!---------- End Interface ------>
+
+ <!---------- Start Nextmatch Timer ------>
+
+    <section class="nextmatch-timer d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-around align-items-center gap-3 mb-4 mb-md-0">
+                <div class="row">
+                  <div class="col-lg-12 d-flex align-items-center justify-content-around">
+                    <div class="col-lg-4 d-flex justify-content-center"><img class="rounded-circle" src="images/image_1.jpg" width="60px" height="60px"/></div>
+                    <div class="col-lg-2 d-flex justify-content-center">vs</div>
+                    <div class="col-lg-4 d-flex justify-content-center"><img class="rounded-circle" src="images/image_2.jpg" width="60px" height="60px"/></div>
+                    <div class="col-offset-2"></div>
+                  </div>
+                  <div class="col-lg-12 d-flex justify-content-around">
+                    <div class="col-lg-6 d-flex justify-content-center"> <p class="mt-3" style="margin-left: -22px;">POSTON</p></div>
+                    <div class="col-lg-6 d-flex justify-content-center"> <p class="mt-3">JACKSONVILLE</p></div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 text-center-sm">
+                <h1 style="font-size:27px;">BASEBALL CHAMPIONS LEAGUE</h1>
+                <p>Semi-Final</p>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center" id="timer">
+                  <div class="time-text"><h2 id="days"></h2></div>
+                  <div class="time-text"><h2 id="hours"></h2></div>
+                  <div class="time-text"><h2 id="minutes"></h2></div>
+                  <div class="time-text"><h2 id="seconds"></h2></div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                <a class="btn btn-green px-6">Get Ticket</a>
+              </div>
+            
+        </div>
+      </div>
+    </section>
+     
+
+ <!---------- End Nextmatch Timer ------>
+
+
+
+ <!---------- Start Game Report ------>
+    <section class="heading d-flex justify-content-center align-items-center flex-column">
+      <p>Game Report</p>
+      <h1>LATEST GAME RESULT</h1>
+    </section>
+
+    <section class="latest-game-result">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-10 d-flex justify-content-center flex-column p">
+              <div class="container">
+              <div class="date d-flex justify-content-center date"><p>MON. JULY 20, 2022; BASEBALL CHAMPIONS LEAGUE</p></div>
+              <div class="row">
+                <div class="col-lg-5 d-flex justify-content-between align-items-center">
+                  <img class="rounded-circle" src="images/Poston.svg" width="120px" height="120px"/>
+                  <div class="d-flex flex-column align-items-center">
+                      <h3 style="font-size: 65px;">12</h3>
+                      <p>POSTON</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center align-items-center" style="font-size: 45px;">vs</div>
+                <div class="col-lg-5 d-flex justify-content-between align-items-center">
+                  <div class="d-flex flex-column align-items-center order-xs-2">
+                    <h3 style="font-size: 65px;">11</h3>
+                    <p>BALTIMORE</p>
+                  </div>
+                  <img class="rounded-circle order-xs-1" src="images/Baltimore.svg" width="120px" height="120px"/>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn mt-3">More Details</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="video-highlight">
+      <div class="container d-flex justify-content-center">
+        <iframe  class="iframe"src="https://www.youtube.com/embed/8Xut6Z4Bga4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </section>
+
+ <!---------- End Game Report ------>
+
+
+<!---------- Start Game Schedule ------>
+
+    <section class="heading d-flex justify-content-center align-items-center flex-column">
+      <p>Game Schedule</p>
+      <h1>Next Matches</h1>
+    </section>
+
+    <section class="game-schedule">
+      <div class="container">
+
+
+        <div class="owl-one owl-carousel owl-theme">
+          <div class="item match">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+                <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Poston.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+                <div class="col-lg-2  d-flex justify-content-center vs w-20">vs</div>
+                <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Baltimore.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="item match">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Poston.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center vs w-20">vs</div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Minnesota.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item match">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Poston.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center vs w-20">vs</div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Texas.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item match">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Poston.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center vs w-20">vs</div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Torento.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="item match">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Poston.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center vs w-20">vs</div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/TP.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item match">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Poston.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center vs w-20">vs</div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Washington.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item match">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Poston.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center vs w-20">vs</div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center w-40">
+                  <img class="rounded-circle" src="images/Colorado.svg"/>
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!---------- End Game Schedule ------>
+
+
+
+
+<!---------- Start About Us ------>
+
+    <section class="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 pt-5" style="z-index: 1;">
+            <div class="about-us-content">
+              <h1 class="mb-5">About The Poston</h1>
+              <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+              <a class="btn">Watch Game</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-none-sm  d-flex justify-content-center" style="z-index: 1;">
+              <img src="images/about.jpg"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!---------- End About Us ------>
+
+
+<!------------ Start Next Match------------->
+
+<section class="heading d-flex justify-content-center align-items-center flex-column">
+  <p>Schedule</p>
+  <h1>Next match</h1>
+</section>
+
+<section class="next-match">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="images/about-1.jpg" width="100%" height="100%"/>
+      </div>
+      <div class="col-lg-6 d-flex flex-column">
+
+        <div class="match mb-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Poston.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+              <div class="col-lg-2  d-flex justify-content-center vs w-20">vs</div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Baltimore.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="match mb-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Poston.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+              <div class="col-lg-2  d-flex justify-content-center vs w-20">vs</div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Baltimore.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="match mb-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Poston.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+              <div class="col-lg-2  d-flex justify-content-center vs w-20">vs</div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Baltimore.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="match">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-center"><p>HOME @ARENA - JUNE 7 , 2022</p></div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Poston.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+              <div class="col-lg-2  d-flex justify-content-center vs w-20">vs</div>
+              <div class="col-lg-5  d-flex flex-column justify-content-center align-items-center w-40">
+                <img class="rounded-circle logo" src="images/Baltimore.svg"/>
+                <h3>PHOENIX</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------ End Next Match ------------->
+
+
+<!------------- Start Team Squad ------------------>
+
+  <section class="squad">
+    
+    <section class="heading d-flex justify-content-center align-items-center flex-column">
+      <p>Team Squad</p>
+      <h1>Our Team Squad</h1>
+    </section>
+
+
+    <div class="team-members pb-5">
+    <div class="container">
+      <div class="owl-two owl-carousel owl-theme">
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg" width="100px" height="100px"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+        <div class="item d-flex flex-column justify-content-center align-items-center">
+          <img class="rounded-circle" src="images/staff-1.jpg"/>
+          <p class="name">David Scott</p>
+          <span class="position">Pitcher</span>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+<!------------- End Team Squad ------------------>
+
+
+<!----------- Start Services ---------------->
+
+<section class="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="single-service d-flex">
+          <img src="images/baseball-ball.png"/>
+          <div class="service-content">
+            <h3>Baseball Training</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="single-service d-flex">
+          <img src="images/football-helmet.png"/>
+          <div class="service-content">
+            <h3>Softball Training</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="single-service d-flex">
+          <img src="images/shield.png"/>
+          <div class="service-content">
+            <h3>Basic Definse</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="single-service d-flex">
+          <img src="images/baseball.png"/>
+          <div class="service-content">
+            <h3>Basic Tactics</h3>
+            <p>A small river named Duden flows by their place and supplies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!----------- End Services ---------------->
+
+
+<!--------------- Start Testimonial--------------->
+
+<section class="squad testimonial">
+    
+  <section class="heading d-flex justify-content-center align-items-center flex-column">
+    <p>Testimonial</p>
+    <h1>Happy Viewers</h1>
+  </section>
+
+
+  <div class="team-members testimonial-viewers pb-5">
+  <div class="container">
+    <div class="owl-three owl-carousel owl-theme">
+
+      <div class="item d-flex flex-column justify-content-center align-items-center">
+        <img class="rounded-circle" src="images/staff-1.jpg"/>
+        <p class="name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h3>Jason Smith</h3>
+        <span class="position">Pitcher</span>
+      </div>
+
+      <div class="item d-flex flex-column justify-content-center align-items-center">
+        <img class="rounded-circle" src="images/staff-1.jpg"/>
+        <p class="name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h3>Jason Smith</h3>
+        <span class="position">Pitcher</span>
+      </div>
+
+      <div class="item d-flex flex-column justify-content-center align-items-center">
+        <img class="rounded-circle" src="images/staff-1.jpg"/>
+        <p class="name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h3>Jason Smith</h3>
+        <span class="position">Pitcher</span>
+      </div>
+
+      <div class="item d-flex flex-column justify-content-center align-items-center">
+        <img class="rounded-circle" src="images/staff-1.jpg"/>
+        <p class="name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h3>Jason Smith</h3>
+        <span class="position">Pitcher</span>
+      </div>
+
+      <div class="item d-flex flex-column justify-content-center align-items-center">
+        <img class="rounded-circle" src="images/staff-1.jpg"/>
+        <p class="name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h3>Jason Smith</h3>
+        <span class="position">Pitcher</span>
+      </div>
+
+      <div class="item d-flex flex-column justify-content-center align-items-center">
+        <img class="rounded-circle" src="images/staff-1.jpg"/>
+        <p class="name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h3>Jason Smith</h3>
+        <span class="position">Pitcher</span>
+      </div>
+
+      <div class="item d-flex flex-column justify-content-center align-items-center">
+        <img class="rounded-circle" src="images/staff-1.jpg"/>
+        <p class="name">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <h3>Jason Smith</h3>
+        <span class="position">Pitcher</span>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+<!--------------- End Testimonial--------------->
+
+
+<!--------------- Start Recent News ------------------->
+
+<section class="heading d-flex justify-content-center align-items-center flex-column">
+  <p>Blog</p>
+  <h1>Recent News</h1>
+</section>
+
+<section class="news">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-3 col-md-6 d-flex flex-column p-relative single-news">
+        <div class="news-img">
+          <img src="images/image_1.jpg" alt="newsimage"/>
+        </div>
+        <div class="date d-flex justify-content-between align-items-center">
+          <div class="day">29</div>
+          <div class="month d-flex flex-column"><p>2019</p><p>May</p></div>
+        </div>
+        <div class="title">
+          <h3><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex flex-column p-relative single-news">
+        <div class="news-img">
+          <img src="images/image_1.jpg" alt="newsimage"/>
+        </div>
+        <div class="date d-flex justify-content-between align-items-center">
+          <div class="day">29</div>
+          <div class="month d-flex flex-column"><p>2019</p><p>May</p></div>
+        </div>
+        <div class="title">
+          <h3><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex flex-column p-relative single-news">
+        <div class="news-img">
+          <img src="images/image_1.jpg" alt="newsimage"/>
+        </div>
+        <div class="date d-flex justify-content-between align-items-center">
+          <div class="day">29</div>
+          <div class="month d-flex flex-column"><p>2019</p><p>May</p></div>
+        </div>
+        <div class="title">
+          <h3><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex flex-column p-relative single-news">
+        <div class="news-img">
+          <img src="images/image_1.jpg" alt="newsimage"/>
+        </div>
+        <div class="date d-flex justify-content-between align-items-center">
+          <div class="day">29</div>
+          <div class="month d-flex flex-column"><p>2019</p><p>May</p></div>
+        </div>
+        <div class="title">
+          <h3><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--------------- Start Recent News ------------------->
+
+
+<!----------------- Start Team Identity------------------->
+
+  <section class="team-identity">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center mb-sm">
+          <h1>20</h1>
+          <p>Game Played</p>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center mb-sm">
+          <h1>3</h1>
+          <p>coaches</p>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center mb-sm">
+          <h1>24</h1>
+          <p>Trophies</p>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center mb-sm">
+          <h1>18</h1>
+          <p>Members</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!----------------- End Team Identity ------------------->
+
+<!------------------Start Subscribe----------------------->
+
+  <section class="subscribe">
+    <div class="container">
+     <div class="row d-flex justify-content-center">
+      <div class="col-lg-9 d-flex justify-content-center align-items-center flex-column">
+          <div class="subscribe-heading text-center">
+            <h1>Subscribe To Our Upcoming Match</h1>
+          </div>
+          <div class="email d-flex align-items-center">
+            <input type="text" placeholder="Enter Email Address"/>
+            <a class="btn btn-success btn-subscribe">Subscribe</a>
+          </div>
+      </div>
+     </div>
+    </div>
+  </section>
+
+<!------------------End Subscribe----------------------->
+
+
+<!------------------Start Footer------------------------>
+
+  <footer>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 p">
+         <div class="footer-head-section">
+          <h3>Phoenix</h3>
+         </div>
+         <p>Far far away, behind the word mountains, far from the countries.</p>
+         <div class="social-media d-flex">
+            <a class="social-media-item"><i class="fa-brands fa-twitter"></i></a>
+            <a class="social-media-item"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="social-media-item"><i class="fa-brands fa-instagram"></i></a>
+         </div>
+      </div>
+      <div class="col-lg-2 p">
+        <div class="footer-head-section">
+          <h3>Services</h3>
+         </div>
+         <div class="list-footer">
+          <ul>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Senior Team</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>For Kids</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Reviews</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>FAQs</a></li>
+          </ul>
+         </div>
+      </div>
+      <div class="col-lg-2 p">
+        <div class="footer-head-section">
+          <h3>About Us</h3>
+         </div>
+         <div class="list-footer">
+          <ul>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Our Story</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Meet the team</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Coach</a></li>
+          </ul>
+         </div>
+      </div>
+      <div class="col-lg-2 p">
+        <div class="footer-head-section">
+          <h3>Company</h3>
+         </div>
+         <div class="list-footer">
+          <ul>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>About Us</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Press</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Contact</a></li>
+            <li><a><i class="fa-solid fa-arrow-right-long me-3"></i>Carrers</a></li>
+          </ul>
+         </div>
+      </div>
+      <div class="col-lg-3 p">
+        <div class="footer-head-section">
+          <h3>Have a Questions?</h3>
+         </div>
+         <div class="list-footer">
+          <ul>
+            <li><i class="fa-solid fa-location-dot me-3"></i>203 Fake St. Mountain View</li>
+            <li><i class="fa-solid fa-phone me-3"></i>+2 392 3929 210</li>
+            <li><i class="fa-solid fa-envelope me-3"></i>info@yourdomain.com</li>
+          </ul>
+         </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+<!------------------End Footer------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/all.min.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
