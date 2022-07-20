@@ -1,5 +1,5 @@
 # Poston team Website
-![Design Preview](images/interface.png)
+![Design Preview](images/head.png)
 
 ## Welcome! 👋
 
