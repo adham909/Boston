@@ -2,7 +2,7 @@ $("document").ready(function(){
 
 
     ////////////////Count Down
-    function makeTimer() {
+    function countdown() {
 
             var endTime = new Date("14 August 2022");			
                 endTime = (Date.parse(endTime) / 1000);
@@ -26,7 +26,7 @@ $("document").ready(function(){
                 $("#minutes").html(minutes + "<span>Minutes</span>");
                 $("#seconds").html(seconds + "<span>Seconds</span>");		
         }
-        setInterval(function() { makeTimer(); }, 1000);
+        setInterval(function() { countdown(); }, 1000);
 
 
 
@@ -55,7 +55,7 @@ $("document").ready(function(){
 
 
         $('.owl-two').owlCarousel({
-            loop:false,
+            loop:true,
             margin:10,
             nav:false,
             autoplay:true,
@@ -78,10 +78,10 @@ $("document").ready(function(){
 
 
         $('.owl-three').owlCarousel({
-            loop:false,
+            loop:true,
             margin:10,
             nav:false,
-            autoplay:false,
+            autoplay:true,
             autoplayTimeout:2000,
             responsive:{
                 0:{
@@ -111,5 +111,18 @@ $("document").ready(function(){
                 $("nav").removeClass("bg");
             }
         })
+
+
+        // Wow.js Structure
+
+        wow = new WOW(
+            {
+            boxClass:     'wow',      
+            animateClass: 'animated', 
+            offset:       0,          
+            mobile:       false,       
+            live:         true        
+            })
+          wow.init();
 })
 
