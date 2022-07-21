@@ -24,4 +24,4 @@ This Website have a collection of sections
 -Bootstrap 5
 
 ## Demo
-[Link](https://adham909.github.io/Poston/)
+[Link](https://adham909.github.io/Boston/)
