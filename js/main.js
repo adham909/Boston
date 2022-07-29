@@ -124,5 +124,18 @@ $("document").ready(function(){
             live:         true        
             })
           wow.init();
+
+
+          // Preloader
+
+          $(window).on('load', function(){
+            setTimeout(removeLoader, 1000); 
+            });
+            function removeLoader(){
+                $( "#loadingDiv" ).fadeOut(500, function() {
+                
+                $( "#loadingDiv" ).remove(); 
+            });  
+            }
 })
 
