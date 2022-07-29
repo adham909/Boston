@@ -1,5 +1,5 @@
 # Poston team Website
-![Design Preview](images/interface.png)
+![Design Preview](images/head.png)
 
 ## Welcome! 👋
 
@@ -24,4 +24,4 @@ This Website have a collection of sections
 -Bootstrap 5
 
 ## Demo
-[Link](https://adham909.github.io/Gym-Website/)
+[Link](https://adham909.github.io/Boston/)
